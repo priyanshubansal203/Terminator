@@ -1,0 +1,45 @@
+# Sample Terminator key bindings. Copy to ~/.terminatorrc (or point
+# $TERMINATORRC at a file) and restart Terminator, or change bindings at run
+# time with the `bind` built-in, which saves them here:
+#
+#   bind                       list actions and their keys
+#   bind ACTION KEY[, KEY...]  rebind (use `none` to unbind) and save
+#   bind -d ACTION             back to the default and save
+#   bind -r                    reload this file
+#
+# Format: action = key[, key...]  with Ctrl+, Alt+ and Shift+ modifiers and a
+# single character or an X key name (Left, Home, Delete, F5, Page_Up ...).
+# Invalid or conflicting lines are reported at startup and that action keeps
+# its default. The defaults are shown below, commented out.
+
+# backward-char     = Left
+# forward-char      = Right
+# beginning-of-line = Ctrl+A, Home
+# end-of-line       = Ctrl+E, End
+# previous-history  = Up
+# next-history      = Down
+# unix-line-discard = Ctrl+U
+# kill-line         = Ctrl+K
+# unix-word-rubout  = Ctrl+W
+# delete-char       = Delete
+# clear-screen      = Ctrl+L
+# end-of-file       = Ctrl+D
+# copy              = Ctrl+Shift+C
+# paste             = Ctrl+Shift+V
+# interrupt         = Ctrl+C
+# suspend           = Ctrl+Z
+# scroll-page-up    = Shift+Page_Up
+# scroll-page-down  = Shift+Page_Down
+# scroll-line-up    = Shift+Up
+# scroll-line-down  = Shift+Down
+# scroll-to-top     = Shift+Home
+# scroll-to-bottom  = Shift+End
+# new-tab           = Ctrl+Shift+T
+# close-tab         = Ctrl+Shift+W
+# next-tab          = Ctrl+Page_Down, Ctrl+Tab
+# previous-tab      = Ctrl+Page_Up, Ctrl+Shift+Tab
+#
+# Not rebindable: Alt+1 ... Alt+9 show tab 1 ... 9 (unless bound above).
+# Mouse on the tab bar: click a tab to show it, [ + ] for a new tab,
+# middle-click a tab to close it, the wheel to go through the tabs.
+# reverse-search-history = Ctrl+R
